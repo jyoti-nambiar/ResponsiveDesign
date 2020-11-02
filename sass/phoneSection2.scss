@@ -1,0 +1,23 @@
+.PhoneImage2{
+    display:flex;
+    justify-content: center;
+    margin:0 50px;
+flex-wrap: wrap;
+}
+
+.PhoneImage2--div p{
+padding:10px;
+
+}
+
+.PhoneImage2--div{
+    align-self: center;
+    width:50%;
+
+}
+
+.PhoneImage2 img{
+
+    width:45%;
+
+}

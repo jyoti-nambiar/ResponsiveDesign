@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+header {
+  color: #111;
+  position: relative; }
+
+h2 {
+  color: #323236; }
+
+header h1 {
+  text-align: center;
+  color: #111;
+  font-size: 2.5vw; }
+
+header img {
+  position: relative;
+  margin-top: 0;
+  max-width: 120%;
+  width: 100%; }
+
+p {
+  color: #5a5a5e;
+  font-size: 1.5vw; }
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+  margin-bottom: 20px; }
+
+.main-section--div h2 {
+  margin: 10px 50px 20px;
+  padding: 10px 0;
+  display: block;
+  width: 80%;
+  font-size: 2.5vw;
+  text-align: right;
+  font-weight: 800; }
+
+.main-section--div p {
+  margin: 20px 50px;
+  text-align: center; }
+
+.main-section--div p span {
+  position: relative;
+  left: 8rem; }
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 3vw; }
+  p {
+    font-size: 3vw; }
+  .main-section--div h2 {
+    text-align: center; }
+  .main-section p span {
+    left: 0; }
+  .PhoneImage1 {
+    flex-wrap: wrap;
+    width: 80%; }
+  .PhoneImage2 {
+    flex-wrap: wrap;
+    width: 80%; }
+  .PhoneImage1--div {
+    flex: 1 1 300px; }
+  .PhoneImage2--div {
+    margin-top: 0;
+    flex: 1 1 300px; } }
+
+.PhoneImage1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 50px; }
+
+.PhoneImage1--div h2 {
+  margin-bottom: 10px; }
+
+.PhoneImage1--div p {
+  padding: 10px; }
+
+.PhoneImage1--div {
+  align-self: center;
+  width: 45%; }
+
+.PhoneImage1 img {
+  width: 50%; }
+
+.pageDivision {
+  background-color: #323236;
+  widows: 100%;
+  height: 20vh; }
+
+.PhoneImage2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 50px;
+  flex-wrap: wrap; }
+
+.PhoneImage2--div p {
+  padding: 10px; }
+
+.PhoneImage2--div {
+  align-self: center;
+  width: 50%; }
+
+.PhoneImage2 img {
+  width: 45%; }
+
+.text-only {
+  margin: 20px 20px;
+  width: 75%; }
+
+.text-only p {
+  padding: 10px; }
+
+.cloudSection--div {
+  background-image: url("bilder/Q1_newsletter-02.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.cloudSection--div h2 {
+  margin: 20px 20px; }
+
+.cloudSection--div p {
+  width: 65%;
+  padding: 10px;
+  text-align: center; }
+
+.footerPart {
+  background-color: #323236;
+  height: 40vh;
+  padding: 50px;
+  display: flex;
+  justify-content: center; }
+
+.footerPart div {
+  width: 35%;
+  padding: 10px; }
+
+.footerPart div h2 {
+  margin-bottom: 10px; }
+
+.footerPart div p {
+  color: #fff; }
+
+.footerPart div h2 {
+  color: #fff; }
+
+.footerPart--div2 p {
+  margin-top: 42px;
+  text-align: right;
+  color: #fff; }

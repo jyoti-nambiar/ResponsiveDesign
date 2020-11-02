@@ -1,0 +1,52 @@
+@media (max-width: 768px){
+    
+    header h1{
+        font-size: 3vw;
+    
+        }
+       
+        p{
+            font-size:3vw;
+        }
+       
+            .main-section--div h2{
+                text-align: center;
+                
+            }
+
+
+
+            .main-section p span{
+            
+                left: 0;
+                
+                }
+
+                .PhoneImage1{
+
+                flex-wrap: wrap; 
+                width: 80%;
+                }
+
+                .PhoneImage2{
+
+                    flex-wrap: wrap; 
+                    width: 80%;
+                    }
+                .PhoneImage1--div{
+
+                    flex:1 1 300px;
+                }
+        
+                
+                    .PhoneImage2--div{
+                    margin-top: 0;
+                        flex:1 1 300px ; 
+
+
+                    }
+                    
+               
+}
+
+        
