@@ -51,23 +51,24 @@ header img {
   left: 8rem; }
 
 .PhoneImage1 {
+  margin: 0 50px;
   display: flex;
   justify-content: center;
-  margin: 0 50px;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  border: 1px solid blue; }
 
 .PhoneImage1--div h2 {
   margin-bottom: 10px; }
 
 .PhoneImage1--div p {
-  padding: 10px; }
+  padding: 15px; }
 
 .PhoneImage1--div {
   align-self: center;
-  width: 45%; }
+  width: 35%; }
 
 .PhoneImage1 img {
-  width: 50%; }
+  width: 40%; }
 
 .pageDivision {
   background-color: #323236;
@@ -81,21 +82,21 @@ header img {
   flex-wrap: wrap; }
 
 .PhoneImage2--div p {
-  padding: 10px; }
+  padding: 15px; }
 
 .PhoneImage2--div {
   align-self: center;
-  width: 50%; }
+  width: 35%; }
 
 .PhoneImage2 img {
   width: 45%; }
 
 .text-only {
   margin: 20px 20px;
-  width: 75%; }
+  width: 70%; }
 
 .text-only p {
-  padding: 10px; }
+  padding: 15px; }
 
 .cloudSection--div {
   background-image: url("bilder/Q1_newsletter-02.png");
