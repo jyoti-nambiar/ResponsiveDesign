@@ -1,7 +1,7 @@
 @media (max-width: 768px){
     
     header h1{
-        font-size: 3vw;
+        font-size: 4vw;
     
         }
        
@@ -11,10 +11,8 @@
        
             .main-section--div h2{
                 text-align: center;
-                
+                font-size:5vw;
             }
-
-
 
             .main-section p span{
             
@@ -22,17 +20,6 @@
                 
                 }
 
-                .PhoneImage1{
-
-                flex-wrap: wrap; 
-                width: 80%;
-                }
-
-                .PhoneImage2{
-
-                    flex-wrap: wrap; 
-                    width: 80%;
-                    }
                 .PhoneImage1--div{
 
                     flex:1 1 300px;
@@ -43,9 +30,11 @@
                     margin-top: 0;
                         flex:1 1 300px ; 
 
-
                     }
-                    
+                    .cloudSection--div h2{
+                        font-size:5vw;
+
+                    }  
                
 }
 

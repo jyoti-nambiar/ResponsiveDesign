@@ -5,27 +5,27 @@
 body {
   font-family: 'Montserrat', sans-serif; }
 
-header {
-  color: #111;
-  position: relative; }
+p {
+  color: #5a5a5e;
+  font-size: 1.25vw; }
 
 h2 {
   color: #323236; }
 
+header {
+  color: #111;
+  position: relative; }
+
 header h1 {
   text-align: center;
   color: #111;
-  font-size: 2.5vw; }
+  font-weight: 600; }
 
 header img {
   position: relative;
   margin-top: 0;
   max-width: 120%;
   width: 100%; }
-
-p {
-  color: #5a5a5e;
-  font-size: 1.5vw; }
 
 .main-section {
   display: flex;
@@ -37,8 +37,7 @@ p {
 .main-section--div h2 {
   margin: 10px 50px 20px;
   padding: 10px 0;
-  display: block;
-  width: 80%;
+  width: 65%;
   font-size: 2.5vw;
   text-align: right;
   font-weight: 800; }
@@ -51,31 +50,11 @@ p {
   position: relative;
   left: 8rem; }
 
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 3vw; }
-  p {
-    font-size: 3vw; }
-  .main-section--div h2 {
-    text-align: center; }
-  .main-section p span {
-    left: 0; }
-  .PhoneImage1 {
-    flex-wrap: wrap;
-    width: 80%; }
-  .PhoneImage2 {
-    flex-wrap: wrap;
-    width: 80%; }
-  .PhoneImage1--div {
-    flex: 1 1 300px; }
-  .PhoneImage2--div {
-    margin-top: 0;
-    flex: 1 1 300px; } }
-
 .PhoneImage1 {
   display: flex;
   justify-content: center;
-  margin: 0 50px; }
+  margin: 0 50px;
+  flex-wrap: wrap; }
 
 .PhoneImage1--div h2 {
   margin-bottom: 10px; }
@@ -92,7 +71,7 @@ p {
 
 .pageDivision {
   background-color: #323236;
-  widows: 100%;
+  width: 100%;
   height: 20vh; }
 
 .PhoneImage2 {
@@ -130,7 +109,8 @@ p {
   align-items: center; }
 
 .cloudSection--div h2 {
-  margin: 20px 20px; }
+  margin: 20px 20px;
+  font-size: 3vw; }
 
 .cloudSection--div p {
   width: 65%;
@@ -161,3 +141,21 @@ p {
   margin-top: 42px;
   text-align: right;
   color: #fff; }
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 4vw; }
+  p {
+    font-size: 3vw; }
+  .main-section--div h2 {
+    text-align: center;
+    font-size: 5vw; }
+  .main-section p span {
+    left: 0; }
+  .PhoneImage1--div {
+    flex: 1 1 300px; }
+  .PhoneImage2--div {
+    margin-top: 0;
+    flex: 1 1 300px; }
+  .cloudSection--div h2 {
+    font-size: 5vw; } }
