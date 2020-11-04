@@ -1,25 +1,19 @@
-.cloudSection--div{
+.cloudSection--div {
     background-image: url("bilder/Q1_newsletter-02.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    height:70vh;
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
-}
-
-.cloudSection--div h2{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  
+  .cloudSection--div h2 {
     margin: 20px 20px;
-    font-size: 3vw;
-
-}
-.cloudSection--div p{
-
-    width:65%;
-    padding:10px;
-text-align: center;
-}
+    font-size: 3vw; }
+  
+  .cloudSection--div p {
+    width: 65%;
+    padding: 10px;
+    text-align: center; }

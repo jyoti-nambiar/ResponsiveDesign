@@ -1,23 +1,36 @@
-header{
-    color:#111;
-    position: relative;
-    
-    }
-    
-    
-    header h1{
+   header{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-bottom: 20px;
+   }
+   
+   
+   header h1{
     text-align: center;
     color:#111;
-    font-weight: 600;
     }
     
     header img{
-    
-    position: relative;
-    margin-top: 0;
-    max-width: 120%;
     width: 100%;
     
     }
-    
+    .header--div h2{
+      
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 2.5vw;
+        text-align: right;
+        
+    }
+
+    .header--div p{
+        margin:20px 0px;
+        text-align: center;
+        width:calc(100%-40px);
+        
+    }
+    .header--div p span{
+        float:right;
+    }
    

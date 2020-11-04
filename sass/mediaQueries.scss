@@ -1,5 +1,6 @@
 @media (max-width: 768px){
-    
+ /*the changes made are the font size is increased for smaller devices 
+ and flex child property of grow, shrink and basis is used to view the text in full width  */ 
     header h1{
         font-size: 4vw;
     
@@ -9,17 +10,25 @@
             font-size:3vw;
         }
        
-            .main-section--div h2{
+
+        .header--div{
+        width:80%;
+
+        }
+        .header--div h2{
                 text-align: center;
                 font-size:5vw;
             }
-
-            .main-section p span{
+//the span is center aligned
             
-                left: 0;
+
+.header--div p span{
+            
+                float: none;
                 
                 }
-
+/*used flex child properties like grow, shrink and basis to make 
+the screen responsive to enable the text to have a full width in smaller screen*/
                 .PhoneImage1--div{
 
                     flex:1 1 300px;
@@ -27,10 +36,12 @@
         
                 
                     .PhoneImage2--div{
-                    margin-top: 0;
+                   
                         flex:1 1 300px ; 
 
                     }
+
+
                     .cloudSection--div h2{
                         font-size:5vw;
 

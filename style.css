@@ -13,43 +13,33 @@ h2 {
   color: #323236; }
 
 header {
-  color: #111;
-  position: relative; }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; }
 
 header h1 {
   text-align: center;
-  color: #111;
-  font-weight: 600; }
+  color: #111; }
 
 header img {
-  position: relative;
-  margin-top: 0;
-  max-width: 120%;
   width: 100%; }
 
-.main-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px 20px;
-  margin-bottom: 20px; }
-
-.main-section--div h2 {
-  margin: 10px 50px 20px;
-  padding: 10px 0;
-  width: 65%;
+.header--div h2 {
+  padding: 10px;
+  margin-bottom: 20px;
   font-size: 2.5vw;
-  text-align: right;
-  font-weight: 800; }
+  text-align: right; }
 
-.main-section--div p {
-  margin: 20px 50px;
-  text-align: center; }
+.header--div p {
+  margin: 20px 0px;
+  text-align: center;
+  width: calc(100%-40px); }
 
-.main-section--div p span {
-  position: relative;
-  left: 8rem; }
+.header--div p span {
+  float: right; }
 
+/*section with text on left and phone image on right, the first section in main */
 .PhoneImage1 {
   margin: 0 50px;
   display: flex;
@@ -85,14 +75,14 @@ header img {
 
 .PhoneImage2--div {
   align-self: center;
-  width: 35%; }
+  width: 40%; }
 
 .PhoneImage2 img {
   width: 45%; }
 
 .text-only {
   margin: 20px 20px;
-  width: 70%; }
+  width: calc(100%-40px); }
 
 .text-only p {
   padding: 15px; }
@@ -143,19 +133,24 @@ header img {
   color: #fff; }
 
 @media (max-width: 768px) {
+  /*the changes made are the font size is increased for smaller devices 
+ and flex child property of grow, shrink and basis is used to view the text in full width  */
   header h1 {
     font-size: 4vw; }
   p {
     font-size: 3vw; }
-  .main-section--div h2 {
+  .header--div {
+    width: 80%; }
+  .header--div h2 {
     text-align: center;
     font-size: 5vw; }
-  .main-section p span {
-    left: 0; }
+  .header--div p span {
+    float: none; }
+  /*used flex child properties like grow, shrink and basis to make 
+the screen responsive to enable the text to have a full width in smaller screen*/
   .PhoneImage1--div {
     flex: 1 1 300px; }
   .PhoneImage2--div {
-    margin-top: 0;
     flex: 1 1 300px; }
   .cloudSection--div h2 {
     font-size: 5vw; } }
