@@ -82,10 +82,15 @@ header img {
 
 .text-only {
   margin: 20px 20px;
-  width: calc(100%-40px); }
+  width: calc(100%-40px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .text-only p {
-  padding: 15px; }
+  padding: 20px;
+  width: 80%; }
 
 .cloudSection--div {
   background-image: url("bilder/Q1_newsletter-02.png");
@@ -154,3 +159,16 @@ the screen responsive to enable the text to have a full width in smaller screen*
     flex: 1 1 300px; }
   .cloudSection--div h2 {
     font-size: 5vw; } }
+
+@media (max-width: 1024px) {
+  header h1 {
+    font-size: 4vw; }
+  p {
+    font-size: 3vw; }
+  .header--div {
+    width: 80%; }
+  .header--div h2 {
+    text-align: center;
+    font-size: 5vw; }
+  .header--div p span {
+    float: none; } }
