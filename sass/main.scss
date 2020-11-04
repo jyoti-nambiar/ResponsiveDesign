@@ -5,8 +5,15 @@
      
     }
 
+    /*all the section & divs are imported
+     in sequence for rendering on the screen in its correct order of occurance    */
+
+     // the indenting is done using flex-box for this project
+
+     //flex container properties and flex child properties are used to indent the elements to the center.
+
 @import "./variable.scss";
-@import "./ElementTag.scss";
+@import "./elementTag.scss";
     
   @import "./header.scss";
    @import "./phoneSection1.scss";

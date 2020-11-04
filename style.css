@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0; }
 
+/*all the section & divs are imported
+     in sequence for rendering on the screen in its correct order of occurance    */
 body {
   font-family: 'Montserrat', sans-serif; }
 
@@ -67,6 +69,7 @@ header img {
   width: 100%;
   height: 20vh; }
 
+/*div with text on right and phone image on left*/
 .PhoneImage2 {
   display: flex;
   justify-content: center;
