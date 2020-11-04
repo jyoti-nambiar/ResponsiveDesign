@@ -33,8 +33,7 @@ header img {
 
 .header--div p {
   margin: 20px 0px;
-  text-align: center;
-  width: calc(100%-40px); }
+  text-align: center; }
 
 .header--div p span {
   float: right; }
@@ -82,7 +81,6 @@ header img {
 
 .text-only {
   margin: 20px 20px;
-  width: calc(100%-40px);
   display: flex;
   flex-direction: column;
   justify-content: center;
