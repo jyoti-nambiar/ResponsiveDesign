@@ -1,3 +1,5 @@
+@import "./Variable.scss";
+
 body{
     font-family: 'Montserrat', sans-serif;
 
@@ -6,6 +8,11 @@ body{
 p{
     color: $text-color;
     font-size:1.25vw;
+}
+
+.darkShade{
+    color:$darkShade-color;
+    font-weight: lighter;
 }
 
 h2{

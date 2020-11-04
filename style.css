@@ -6,8 +6,12 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 p {
-  color: #5a5a5e;
+  color: gray;
   font-size: 1.25vw; }
+
+.darkShade {
+  color: #202020;
+  font-weight: lighter; }
 
 h2 {
   color: #323236; }
