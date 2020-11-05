@@ -19,6 +19,7 @@ h2 {
   color: #323236; }
 
 header {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -165,7 +166,7 @@ the screen responsive to enable the text to have a full width in smaller screen*
   .cloudSection--div h2 {
     font-size: 5vw; } }
 
-@media (max-width: 1024px) {
+@media (max-width: 1030px) {
   header h1 {
     font-size: 4vw; }
   p {

@@ -1,4 +1,5 @@
    header{
+       margin-top: 10px;
        display: flex;
        flex-direction: column;
        align-items: center;
@@ -26,8 +27,7 @@
 
     .header--div p{
         margin:20px 0px;
-        text-align: center;
-        
+        text-align: center;   
     }
     .header--div p span{
         float:right;
